@@ -1,0 +1,136 @@
+.cus_a{
+	text-decoration: none !important;
+	color: white !important;
+}
+/* draggable */
+#draggable { 
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em; 
+}
+/* drag & drop */
+#draggable1 { 
+ 	width: 100px; 
+ 	height: 100px; 
+ 	padding: 0.5em; 
+ 	float: left; 
+ 	margin: 10px 10px 10px 0; 
+ }
+
+#droppable { 
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em; 
+	float: left; 
+	margin: 10px; 
+}
+
+/* animate */
+#resizable { 
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em; 
+}
+#resizable h3 { 
+	text-align: center; 
+	margin: 0; 
+}
+.ui-resizable-helper { 
+	border: 1px dotted gray; 
+}
+
+/* selectable */
+#feedback { 
+	font-size: 1.4em; 
+}
+#selectable .ui-selecting { 
+	background: #FECA40; 
+}
+#selectable .ui-selected { 
+	background: #F39814; 
+	color: white; 
+}
+#selectable { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 60%; 
+}
+#selectable li { 
+	margin: 3px; 
+	padding: 0.4em; 
+	font-size: 1.4em;  
+}
+
+/* sortable */
+#sortable1, #sortable2 {
+    border: 1px solid #eee;
+    width: 142px;
+    min-height: 20px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    float: left;
+    margin-right: 10px;
+}
+#sortable1 li, #sortable2 li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    font-size: 1.2em;
+    width: 120px;
+}
+
+/* slider */
+#red, #green, #blue {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+  }
+#swatch {
+    width: 120px;
+    height: 100px;
+    margin-top: 18px;
+    margin-left: 350px;
+    background-image: none;
+} 
+#red .ui-slider-range { 
+  	background: #ef2929; 
+}
+#red .ui-slider-handle { 
+	border-color: #ef2929; 
+}
+#green .ui-slider-range { 
+	background: #8ae234; 
+}
+#green .ui-slider-handle { 
+	border-color: #8ae234; 
+}
+#blue .ui-slider-range { 
+	background: #729fcf; 
+}
+#blue .ui-slider-handle { 
+	border-color: #729fcf; 
+}
+
+/* tab */
+#dialog label, #dialog input { 
+	display:block; 
+}
+#dialog label { 
+	margin-top: 0.5em; 
+}
+#dialog input, #dialog textarea { 
+	width: 95%; 
+}
+#tabs { 
+	margin-top: 1em; 
+}
+#tabs li .ui-icon-close { 
+	float: left; 
+	margin: 0.4em 0.2em 0 0; 
+	cursor: pointer; 
+}
+#add_tab { 
+	cursor: pointer; 
+}
